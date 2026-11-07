@@ -1,1 +1,0 @@
-# AI-assignment-smart-attendance-reader
