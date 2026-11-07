@@ -1,20 +1,3 @@
-"""
-Smart Attendance Reader (Problem B)
-Techniques used: k-NN (supervised) and PCA (unsupervised)
-
-What this script does, in order:
-  1. Loads handwritten digit pictures (0-9) that come built into scikit-learn.
-  2. Splits them into a TRAINING part (to learn from) and a TEST part (to check).
-  3. k-NN: finds the best k, then measures accuracy on the test part.
-  4. PCA: shrinks each picture from 64 numbers to fewer numbers.
-  5. Runs k-NN again on the shrunken pictures and compares.
-  6. Saves every graph into a folder called "figures".
-
-How to run:   pip install scikit-learn matplotlib
-              python knn_pca_digits.py
-"""
-
-# ---------------------------------------------------------------- imports
 import os                                    # to create the "figures" folder
 import time                                  # to measure how long things take
 import numpy as np                           # numbers and arrays
