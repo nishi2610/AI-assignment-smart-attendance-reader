@@ -29,7 +29,3 @@ The script prints the results and saves six figures into a `figures/` folder.
 | k-NN test accuracy | 96.67% (348 of 360) |
 | PCA components for 90% / 95% / 99% variance | 31 / 40 / 54 |
 | k-NN on 40 PCA components | 97.22% (350 of 360) |
-
-## Files
-- `knn_pca_digits.py`: the full, commented script
-- `requirements.txt`: the libraries needed
